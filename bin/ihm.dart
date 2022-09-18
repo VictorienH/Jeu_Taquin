@@ -3,15 +3,15 @@ import 'main.dart';
 
 class IHM {
   static void haut() {
-    print("1 pour aller en haut");
+    print("8 pour aller en haut");
   }
 
   static droite() {
-    print("2 pour aller à droite");
+    print("6 pour aller à droite");
   }
 
   static void bas() {
-    print("3 pour aller en bas");
+    print("2 pour aller en bas");
   }
 
   static void gauche() {
