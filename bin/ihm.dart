@@ -1,5 +1,6 @@
 import 'taquin.dart';
 import 'main.dart';
+import 'dart:io';
 
 class IHM {
   static void haut() {
@@ -22,36 +23,36 @@ class IHM {
     print("Vous avez gagné!");
   }
 
-  static void afficheTableau(monTab) {
+  static void affichePlateau(plateau) {
     print("+----+----+----+");
     print("| " +
-        monTab[0].toString() +
+        plateau[0].toString() +
         "  |" +
         " " +
-        monTab[1].toString() +
+        plateau[1].toString() +
         "  |" +
         " " +
-        monTab[2].toString() +
+        plateau[2].toString() +
         "  |");
     print("+----+----+----+");
     print("| " +
-        monTab[3].toString() +
+        plateau[3].toString() +
         "  |" +
         " " +
-        monTab[4].toString() +
+        plateau[4].toString() +
         "  |" +
         " " +
-        monTab[5].toString() +
+        plateau[5].toString() +
         "  |");
     print("+----+----+----+");
     print("| " +
-        monTab[6].toString() +
+        plateau[6].toString() +
         "  |" +
         " " +
-        monTab[7].toString() +
+        plateau[7].toString() +
         "  |" +
         " " +
-        monTab[8].toString() +
+        plateau[8].toString() +
         "  |");
     print("+----+----+----+");
     ;

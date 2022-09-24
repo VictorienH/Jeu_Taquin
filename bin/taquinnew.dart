@@ -280,8 +280,6 @@ class TaquinNew {
           }
           IHM.afficheTableau(monTab);
         }
-
-        monTab = ["1", "2", "3", "4", "5", "6", "7", "8", " "];
       }
     }
     if (monTab == ["1", "2", "3", "4", "5", "6", "7", "8", " "]) {
